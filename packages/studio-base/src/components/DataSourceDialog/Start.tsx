@@ -20,8 +20,8 @@ import { AppEvent } from "@foxglove/studio-base/services/IAnalytics";
 
 const useStyles = makeStyles()((theme) => ({
   logo: {
-    width: 212,
-    height: "auto",
+    width: "auto",
+    height: 100,
     marginLeft: theme.spacing(-1),
   },
   grid: {
@@ -32,7 +32,7 @@ const useStyles = makeStyles()((theme) => ({
         "content sidebar"
       `,
       gridTemplateRows: `content auto`,
-      gridTemplateColumns: `1fr 375px`,
+      gridTemplateColumns: `1fr 50px`,
     },
   },
   header: {
@@ -526,10 +526,10 @@ export default function Start(): JSX.Element {
           )}
         </Stack>
       </Stack>
-      <div className={classes.spacer} />
-      <Stack gap={4} className={classes.sidebar}>
-        <SidebarItems onSelectView={dialogActions.dataSource.open} />
-      </Stack>
+      {/* <div className={classes.spacer} />
+       <Stack gap={4} className={classes.sidebar}>
+         <SidebarItems onSelectView={dialogActions.dataSource.open} />
+       </Stack> */}
     </Stack>
   );
 }
