@@ -7,7 +7,7 @@ import { SvgIcon, SvgIconProps } from "@mui/material";
 export default function FoxgloveLogoText(props: SvgIconProps): JSX.Element {
   return (
     <SvgIcon viewBox="-500 -100 2700 400" {...props}>
-      <title>Foxglove</title>
+      <title>Kalman</title>
       <path
       strokeLinecap="round"
       d="M6.976 41.429c0-41.732 61.824-41.732 61.824 0v108.193c0 41.731-61.825 41.731-61.825 0V41.429m205.567-17.002c29.366-30.912 74.189 12.365 41.731 46.369l-89.645 97.373c-29.367 30.912-77.28-10.82-46.369-43.277l94.283-100.465"
